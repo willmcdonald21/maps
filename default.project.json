@@ -1,0 +1,35 @@
+{
+	"name": "maps",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"Shared": {
+				"$path": "src/shared"
+			}
+		},
+		"ServerScriptService": {
+			"Server": {
+				"$path": "src/server"
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"Client": {
+					"$path": "src/client"
+				}
+			}
+		},
+		"Players": {
+			"$properties": {
+				"CharacterAutoLoads": false
+			}
+		},
+		"Workspace": {
+			"$properties": {
+				"StreamingEnabled": true,
+				"StreamingMinRadius": 256,
+				"StreamingTargetRadius": 1024
+			}
+		}
+	}
+}
